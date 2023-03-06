@@ -21,8 +21,6 @@ prepare() {
 }
 
 build() {
-  ls
-  pwd
   cd $pkgbase
   ./configure
   make
