@@ -22,7 +22,7 @@ prepare() {
 
 build() {
   cd $pkgbase
-  ./configure
+  ./configure --mandir=/usr/man/
   make
 }
 
